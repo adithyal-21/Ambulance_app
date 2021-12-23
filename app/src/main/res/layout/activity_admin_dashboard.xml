@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_dash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/das"
+    tools:context=".Admin_Dashboard">
+
+
+    <Button
+        android:id="@+id/move"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="232dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="233dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif"
+        android:text="DASHBOARD"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textFontWeight="800"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="235dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Welcome, Admin"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textFontWeight="500"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/adm_logout"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/move"
+        app:layout_constraintVertical_bias="0.357" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
